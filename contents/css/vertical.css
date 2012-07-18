@@ -6,3 +6,9 @@ body {
     line-height: 1.75;
     text-align: justify;
 }
+
+.tcy {
+  -epub-text-combine:horizontal;
+  -webkit-text-combine:horizontal;
+}
+
