@@ -1,0 +1,27 @@
+p.note {
+    font-size: 0.8em;
+    color: #444444;
+}
+
+div.author-profile {
+	clear: both;
+	margin: 1em;
+	padding: 1em;
+	font-size: 0.9em;
+	color: #73655f;
+	background-color: #f9e7e7;
+	border-radius: 0.5em;
+	
+}
+
+div.author-profile a {
+	color: #bb3c3c;
+	text-decoration: none;
+}
+
+div.author-profile p {
+	text-indent: 0;
+	line-height: 1.4em;
+	margin: 0 ;
+	padding: 0;
+}

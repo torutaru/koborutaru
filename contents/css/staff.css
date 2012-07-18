@@ -1,0 +1,60 @@
+div,p {
+	line-height: 1.5;
+}
+
+p {
+    text-indent: 1em;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #664444;
+	padding: 0.4em;
+}
+
+div.staff {
+	margin: 0.2em;
+	padding: 0.4em 1em 0.4em 1em;
+	background-color: #dadada;
+	color: #424141;
+	border-radius: 1em;
+	font-size: 0.9em;
+}
+
+div.staff a {
+	color: #ac3c3c;
+	text-decoration: none;
+}
+
+h2 {
+	font-weight: bold;
+	letter-spacing: 1.2;
+	margin-right: 1em;
+	margin-left: 0.4em;
+}
+
+p.oneline {
+	margin-right: 1em;
+}
+
+
+div.next {
+	margin: 1em 0.2em 1em 0.2em;
+	padding: 0.4em 1em 0.4em 1em;
+	font-size: 0.9em;
+	background-color: #f7dfb4;
+	color: #424141;
+	border-radius: 1em;
+}
+div.next a {
+	color: #ac3c3c;
+	text-decoration: none;
+}
+
+div.next p {
+	text-indent: 1em;
+}
+p.first {
+	margin-top: 1em;
+}

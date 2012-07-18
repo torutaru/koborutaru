@@ -1,0 +1,38 @@
+div.okuduke {
+	padding: 1em;
+	color: #226622;
+}
+
+div.okuduke a {
+	text-decoration: none;
+	color: #773333;
+}
+
+p.backcover_license {
+	padding: 0px ;
+	margin-top: 1em ;
+	margin-bottom: 0.7em;
+	margin-left: 2em;
+}
+
+p.backcover_license a img {
+	width: auto;
+}
+
+div.kanakanalogo {
+	width: 8em;
+}
+
+div.kanakanalogo img {
+	width: 100%;
+	height: auto;
+}
+
+p.license_note {
+	font-size: 0.8em;
+	color: #444444;
+}
+
+div.message {
+	margin: 1em 0 1em 0;
+}

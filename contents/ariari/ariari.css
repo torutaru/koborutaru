@@ -1,0 +1,54 @@
+div,p,span {
+	line-height: 1.4em;
+}
+
+div.contents {
+	margin: 0.5em;
+}
+
+div.logo-wrap {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+div.img-wrap {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+div.logo-wrap img {
+	width: 100%;
+}
+
+div.img-wrap img {
+	width: 100%;
+}
+
+p {
+	text-indent: 1em;
+	margin-bottom: 1em;
+}
+
+p.nomargin {
+	text-indent: 1em;
+	margin-bottom: 0;
+}
+
+p.noindent, p.noindent_interviewer {
+	text-indent: 0em;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
