@@ -12,5 +12,7 @@ Built with ruby epub library [gepub](http://github.com/skoji/gepub).
 
 [CrativeCommons BY-NC-ND](http://creativecommons.org/licenses/by-nc-nd/2.5/) for xhtml, texts and images in "contents" directory.
 
+[license] (https://github.com/torutaru/koborutaru/blob/master/lib/epubcheck-3.0b5/COPYING.txt) for files in lib/epubcheck-3.0b5
+
 MIT Lisence for the rest part of the project.
 
