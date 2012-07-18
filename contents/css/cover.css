@@ -1,0 +1,20 @@
+div.cover_wrap {
+    max-width: 100%;
+	height: auto;
+	margin-left: auto ;
+	margin-right: auto ;
+}
+
+img.cover {
+	width: 100%;
+	height: auto;
+}
+
+div.version {
+    position: absolute;
+    z-index: 10;
+    font-size: 0.8em;
+    color: #555555;
+    bottom: 2em;
+    right: 1em;
+}

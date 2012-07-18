@@ -1,0 +1,70 @@
+body {
+    font-family: "HiraMinProN-W3", serif, sans-serif;
+    writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+    -epub-writing-mode: vertical-rl;
+    line-height: 1.75;
+    text-align: justify;
+}
+
+
+.tcy {
+  -epub-text-combine:horizontal;
+  -webkit-text-combine:horizontal;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.noteref {
+  -epub-text-combine:horizontal;
+  -webkit-text-combine:horizontal;
+  font-size: 50%;
+  vertical-align: super;
+  margin-top: 0.2em;
+  text-decoration: none;
+}
+
+aside.footnote {
+    font-size: 80%;
+}
+
+article h1 {
+	font-weight: bold;
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+article p {
+	text-indent: 1em;
+	margin: 0.5em 1em 1em 1em;
+}
+
+article p.noindent {
+	text-indent: 0;
+}
+
+article p.signature {
+	text-align: right;
+	font-weight: bold;
+}
+
+div.glossary {
+    margin: 1em 0.5em 1em 0.5em;
+    padding: 1em 0.5em 1em 0.5em;
+    background: #bbbbbb;
+    border-radius: 1em;
+    font-size: 0.8em;
+}
+
+div.glossary dt {
+    font-weight: bold;
+}
+
+div.glossary dd {
+    text-indent: 1em;
+    margin-top: 1em;
+}

@@ -1,0 +1,37 @@
+# -*- coding: utf-8 -*-
+require 'gepub'
+$koborutaru_version = '0.0.1'
+date_part = Time.now.strftime("%m%d_%H%M")
+epubname_base = "koborutaru_v#{$koborutaru_version.gsub('.','')}"
+
+def generate_epub(epubname, version, conffile)
+  GEPUB::Builder.new {
+    @koborutaru_version = $koborutaru_version + version
+    eval File.new("#{conffile}").read
+  }.generate_epub(File.join(File.dirname(__FILE__), epubname))
+  sh "java -jar ../lib/epubcheck-3.0b5/epubcheck-3.0b5.jar #{epubname}"
+end
+
+
+desc 'build test EPUB'
+task :test_epub do
+  generate_epub("#{epubname_base}_#{date_part}.epub",
+                ' ' + date_part,
+                'genepub.conf')
+end
+
+desc 'build release EPUB'
+task :epub do
+  generate_epub("#{epubname_base}_1.epub",
+                '',
+                'genepub.conf')
+end
+
+desc 'release EPUB'
+task :release => :epub do
+  sh "cp #{epubname_base}_1.epub ~/Dropbox/koborutaru_release"
+end
+
+task :default => :test_epub
+
+
