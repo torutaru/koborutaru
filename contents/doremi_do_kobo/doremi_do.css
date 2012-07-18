@@ -1,0 +1,14 @@
+div.img-wrap {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+div.center-wrap2 {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	page-break-inside: avoid;
+}
