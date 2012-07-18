@@ -8,6 +8,7 @@ RubyのEPUB3ライブラリ[gepub](http://github.com/skoji/gepub)を使って作
 ## ライセンス
 
 contents ディレクトリ以下にある内容は、[CrativeCommons BY-NC-ND](http://creativecommons.org/licenses/by-nc-nd/2.5/)
+
 その他のコードなどは、MIT Licenseです。
 
-[English version of README.md](README.en.md)
+[English version of README.md](https://github.com/torutaru/koborutaru/blob/master/README.en.md)
