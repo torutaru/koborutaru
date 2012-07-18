@@ -2,7 +2,7 @@
 require 'gepub'
 $koborutaru_version = '0.0.1'
 date_part = Time.now.strftime("%m%d_%H%M")
-epubname_base = "koborutaru_v#{$koborutaru_version.gsub('.','')}"
+epubname_base = "koborutaru_1"
 
 def generate_epub(epubname, version, conffile)
   GEPUB::Builder.new {
@@ -22,14 +22,14 @@ end
 
 desc 'build release EPUB'
 task :epub do
-  generate_epub("#{epubname_base}_1.epub",
+  generate_epub("#{epubname_base}.epub",
                 '',
                 'genepub.conf')
 end
 
 desc 'release EPUB'
 task :release => :epub do
-  sh "cp #{epubname_base}_1.epub ~/Dropbox/koborutaru_release"
+  sh "cp #{epubname_base}.epub ~/Dropbox/koborutaru_release"
 end
 
 task :default => :test_epub
