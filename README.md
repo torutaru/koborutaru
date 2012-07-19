@@ -5,6 +5,11 @@
 
 RubyのEPUB3ライブラリ[gepub](http://github.com/skoji/gepub)を使って作っています。
 
+## リリース版EPUBダウンロード
+
+こちらからダウンロードできます。
+http://bit.ly/Kotorutaru_1
+
 ## ライセンス
 
 contents ディレクトリ以下にある内容は、[CrativeCommons BY-NC-ND](http://creativecommons.org/licenses/by-nc-nd/2.5/)です。
