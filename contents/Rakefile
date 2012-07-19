@@ -15,21 +15,21 @@ end
 
 desc 'build test EPUB'
 task :test_epub do
-  generate_epub("#{epubname_base}_#{date_part}.epub",
+  generate_epub("#{epubname_base}_#{date_part}.kepub.epub",
                 ' ' + date_part,
                 'genepub.conf')
 end
 
 desc 'build release EPUB'
 task :epub do
-  generate_epub("#{epubname_base}.epub",
+  generate_epub("#{epubname_base}.kepub.epub",
                 '',
                 'genepub.conf')
 end
 
 desc 'release EPUB'
 task :release => :epub do
-  sh "cp #{epubname_base}.epub ~/Dropbox/koborutaru_release"
+  sh "cp #{epubname_base}.kepub.epub ~/Dropbox/koborutaru_release"
 end
 
 task :default => :test_epub
