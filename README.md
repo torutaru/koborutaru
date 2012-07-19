@@ -5,6 +5,13 @@
 
 RubyのEPUB3ライブラリ[gepub](http://github.com/skoji/gepub)を使って作っています。
 
+## 問題点・改善案の報告
+
+GitHubアカウントお持ちのかたは、[Issues](https://github.com/torutaru/koborutaru/issues)  に頂けるとたすかります。
+twitterで [小嶋(@skoji)](http://twitter.com/skoji) あてにお知らせいただいてもOKです。
+
+pull requestはもちろん大歓迎です。
+
 ## ライセンス
 
 contents ディレクトリ以下にある内容は、[CrativeCommons BY-NC-ND](http://creativecommons.org/licenses/by-nc-nd/2.5/)です。
