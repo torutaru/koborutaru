@@ -8,7 +8,7 @@ RubyのEPUB3ライブラリ[gepub](http://github.com/skoji/gepub)を使って作
 ## リリース版EPUBダウンロード
 
 こちらからダウンロードできます。
-http://bit.ly/Kotorutaru_1
+http://bit.ly/Koborutaru_1
 
 ## ライセンス
 
