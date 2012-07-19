@@ -30,6 +30,7 @@ end
 desc 'release EPUB'
 task :release => :epub do
   sh "cp #{epubname_base}.kepub.epub ~/Dropbox/koborutaru_release"
+  sh "cp #{epubname_base}.kepub.epub ~/Dropbox/koborutaru_release/#{epubname_base}.epub"
 end
 
 task :default => :test_epub
