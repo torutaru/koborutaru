@@ -11,6 +11,11 @@ GitHubアカウントお持ちのかたは、[Issues](https://github.com/torutar
 twitterで [小嶋(@skoji)](http://twitter.com/skoji) あてにお知らせいただいてもOKです。
 
 pull requestはもちろん大歓迎です。
+=======
+## リリース版EPUBダウンロード
+
+こちらからダウンロードできます。
+http://bit.ly/koborutaru_1
 
 ## ライセンス
 
