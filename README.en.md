@@ -10,7 +10,7 @@ Built with ruby epub library [gepub](http://github.com/skoji/gepub).
 
 ## Released EPUB3 
 Released EPUB3 book available here: 
-http://bit.ly/Koborutaru_1 (In Japanese)
+http://bit.ly/koborutaru_1 (In Japanese)
 
 
 ## License
