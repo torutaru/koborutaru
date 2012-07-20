@@ -11,11 +11,18 @@ GitHubアカウントお持ちのかたは、[Issues](https://github.com/torutar
 twitterで [小嶋(@skoji)](http://twitter.com/skoji) あてにお知らせいただいてもOKです。
 
 pull requestはもちろん大歓迎です。
-=======
+
 ## リリース版EPUBダウンロード
 
 こちらからダウンロードできます。
 http://bit.ly/koborutaru_1
+
+## ファイル名に注意:
+
+ダウンロードしたコボルタルのファイル名は、koborutaru\_1.kepub.epub が正しいです。
+もしそうなっていなかったら、ファイル名を koborutaru\_1.kepub.epub に変更してください!
+(kobo Touchの仕様で、ファイル名によって見え方が全然違うのです)
+  
 
 ## ライセンス
 
