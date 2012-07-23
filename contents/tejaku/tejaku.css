@@ -1,0 +1,31 @@
+div,p,span {
+	line-height: 1.8em;
+}
+
+article {
+	margin: 0.5em;
+    font-size: 1.1em;
+}
+
+article p {
+	text-indent: 1em;
+}
+
+article p.first {
+    margin-right: 1em;
+}
+
+p.noindent {
+	text-indent: 0em;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 1.4em;
+	margin-right: 0.5em;
+	margin-left: 1em;
+}
+
+a {
+    text-decoration: none;
+}

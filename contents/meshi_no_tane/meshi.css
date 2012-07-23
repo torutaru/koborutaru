@@ -1,0 +1,52 @@
+div,p,span {
+	line-height: 2em;
+}
+
+article {
+	margin: 0.5em;
+}
+
+p {
+	text-indent: 1em;
+	color: #212121;
+	margin-left: 1em;
+}
+
+p.noindent,p.noindent_interviewer {
+	text-indent: 0em;
+}
+
+p.interviewer,p.noindent_interviewer {
+	color: #446644;
+	margin-left: 1em;
+}
+
+p.interviewer:before,p.noindent_interviewer:before {
+    content: "− ";
+}
+p.interviewee {
+	color: #000000;
+	margin-left: 1em;
+}
+
+ h1 {
+	font-weight: bold;
+	font-size: 1.4em;
+	margin-right: 0.5em;
+	margin-left: 1em;
+}
+
+
+ h2 {
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-right: 0.5em;
+	margin-left: 1em;
+}
+
+ h3 {
+	font-weight: bold;
+	margin-top: 0.5em;
+	margin-left: 1em;
+}
+
