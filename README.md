@@ -25,9 +25,9 @@ http://bit.ly/koborutaru_1
 
 ## 手元でEPUB生成
 
-Ruby 1.9.3とJavaがあれば、手元でもビルドできます。
+gitとRuby 1.9.3とJavaがあれば、手元でもビルドできます。
 
-    $ clone https://github.com/torutaru/koborutaru.git
+    $ git clone https://github.com/torutaru/koborutaru.git
     $ cd koborutaru/contents
     $ gem install bundler
     $ bundle install
