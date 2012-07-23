@@ -29,3 +29,13 @@ h1 {
 a {
     text-decoration: none;
 }
+
+div.horizontal-img-wrap-small {
+    width: 20%;
+    text-align: center;
+}
+
+div.horizontal-img-wrap-small img {
+    width: 100%;
+}
+

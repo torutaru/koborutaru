@@ -7,6 +7,13 @@ body {
     text-align: justify;
 }
 
+div.horizontal {
+    margin-top: 3em;
+    writing-mode: horizontal-tb;
+    -webkit-writing-mode: horizontal-tb;
+    -epub-writing-mode: horizontal-tb;
+}
+
 .tcy {
   -epub-text-combine:horizontal;
   -webkit-text-combine:horizontal;
