@@ -25,7 +25,11 @@ article h1 {
 
 article p {
 	text-indent: 1em;
-	margin: 0.5em 1em 1em 1em;
+	margin: 0.5em 0 1em 0;
+}
+
+article p.first {
+    margin-right: 1em;
 }
 
 article p.noindent {
