@@ -1,6 +1,8 @@
 コボルタル
 ==========
 
+English version of README is available [here](https://github.com/torutaru/koborutaru/blob/master/README.en.md)
+
 「コボルタル」は、フリーな電子雑誌[「トルタル」](http://facebook.com/torutaru)のスピンアウト企画です。Kobo Touchに最適化された日本語EPUB3雑誌を作ります。毎週とか、毎日アップデートを出しますよ。
 
 RubyのEPUB3ライブラリ[gepub](http://github.com/skoji/gepub)を使って作っています。
@@ -45,4 +47,4 @@ lib/epubcheck-3.0bディレクトリ以下の[ライセンス](https://github.co
 
 
 
-[English version of README.md](https://github.com/torutaru/koborutaru/blob/master/README.en.md)
+
