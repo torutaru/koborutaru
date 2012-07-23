@@ -2,7 +2,7 @@ div,p,span {
 	line-height: 1.4em;
 }
 
-div.contents {
+article {
 	margin: 1em;
 }
 
