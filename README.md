@@ -22,7 +22,18 @@ http://bit.ly/koborutaru_1
 ダウンロードしたコボルタルのファイル名は、koborutaru\_1.kepub.epub が正しいです。
 もしそうなっていなかったら、ファイル名を koborutaru\_1.kepub.epub に変更してください!
 (kobo Touchの仕様で、ファイル名によって見え方が全然違うのです)
-  
+
+## 手元でEPUB生成
+
+Ruby 1.9.3とJavaがあれば、手元でもビルドできます。
+
+    $ clone https://github.com/torutaru/koborutaru.git
+    $ cd koborutaru/contents
+    $ gem install bundler
+    $ bundle install
+    $ bundle exec rake
+    
+これで、EPUBファイルが生成されるはず。
 
 ## ライセンス
 

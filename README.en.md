@@ -12,6 +12,18 @@ Built with ruby epub library [gepub](http://github.com/skoji/gepub).
 Released EPUB3 book available here: 
 http://bit.ly/koborutaru_1 (In Japanese)
 
+## How to build Koborutaru EPUB
+
+With ruby 1.9.3 and Java, you can build EPUB from source. 
+
+    $ clone https://github.com/torutaru/koborutaru.git
+    $ cd koborutaru/contents
+    $ gem install bundler
+    $ bundle install
+    $ bundle exec rake
+    
+これで、EPUBファイルが生成されるはず。
+
 
 ## License
 
