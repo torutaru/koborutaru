@@ -22,8 +22,6 @@ With git, ruby 1.9.3 and Java, you can build EPUB from source.
     $ bundle install
     $ bundle exec rake
     
-これで、EPUBファイルが生成されるはず。
-
 
 ## License
 
