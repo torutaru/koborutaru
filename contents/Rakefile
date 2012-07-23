@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 require 'gepub'
-$koborutaru_version = '0.0.1'
+$koborutaru_version = '0.0.2'
 date_part = Time.now.strftime("%m%d_%H%M")
 epubname_base = "koborutaru_1"
 
